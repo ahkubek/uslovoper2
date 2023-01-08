@@ -33,7 +33,7 @@ public class Main {
             deliveryDays = 2;
         }else if (distance<100){
             deliveryDays=3;
-        }if (deliveryDays==0){
+        }if (distance>100){
             System.out.println("доставки нет");
         }else
         {
